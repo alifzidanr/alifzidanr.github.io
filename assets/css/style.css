@@ -26,6 +26,12 @@ body::before {
   height: 100vh;
 }
 
+.white-background {
+  background-color: white;
+  padding: 10px; /* Optional: Add padding if needed */
+}
+
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
